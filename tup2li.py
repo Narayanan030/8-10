@@ -1,0 +1,6 @@
+tup=('ms',4,'db')
+a=list(tup)
+a.insert(2,"is easy for")
+a.pop(1)
+b=tuple(a)
+print(b)
